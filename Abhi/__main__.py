@@ -4,9 +4,9 @@
 import telegram
 from telegram.ext import Updater, CommandHandler
 import os
-from Encryption import encrypt_key, decrypt_key
-from Open_Ai import set_openai_api_key, generate_chat_response
-from Sound_Conversion import set_elevenlabs_api_key, convert_to_sound, query_voices
+from .Encryption import encrypt_key, decrypt_key
+from .Open_Ai import set_openai_api_key, generate_chat_response
+from .Sound_Conversion import set_elevenlabs_api_key, convert_to_sound, query_voices
 import logging
 
 # Retrieve the telegram token from the environment variable. Set in the
