@@ -8,7 +8,7 @@ import logging
 
 # Retrieve the telegram token from the environment variable. Set in the
 # Dockerfile
-TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
+TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN", "8095096286:AAGtId-d51HL7ezrDnqffKeQ4WF9ONEMieI")
 
 # For testing uncomment the following line and set the telegram token as needed.
 # TELEGRAM_TOKEN = ''
