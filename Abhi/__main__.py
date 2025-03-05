@@ -5,7 +5,7 @@ import telegram
 from telegram.ext import Updater, CommandHandler
 import os
 from .Encryption import encrypt_key, decrypt_key
-from Abhi.Open_Ai.Open_Ai import set_openai_api_key, generate_chat_response
+from .Open_Ai import set_openai_api_key, generate_chat_response
 from .Sound_Conversion import set_elevenlabs_api_key, convert_to_sound, query_voices
 import logging
 
